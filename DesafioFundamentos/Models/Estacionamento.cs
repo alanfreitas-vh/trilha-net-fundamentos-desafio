@@ -74,9 +74,9 @@ namespace DesafioFundamentos.Models
             if (veiculos.Count > 0)
             {
                 Console.WriteLine("Os veículos estacionados são:");
-                for (int i = 0; i < veiculos.Count; i++)
+                foreach (string veiculo in veiculos)
                 {
-                    Console.WriteLine(veiculos[i]);
+                    Console.WriteLine(veiculo);
                 }
             }
             else
